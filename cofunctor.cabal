@@ -4,7 +4,7 @@
 -- The name of the package.
 Name:                cofunctor
 
-Version:             0.1
+Version:             0.1.0
 
 Synopsis:            A small library providing a contravariant functor class
 
@@ -31,15 +31,18 @@ Build-type:          Simple
 -- Extra-source-files:  
 
 -- Constraint on the version of Cabal needed to build this package.
-Cabal-version:       >=1.2
+Cabal-version:       >=1.6
 
+source-repository head   
+    type:     git
+    location: https://github.com/jberryman/cofunctor.git
 
 Library
   -- Modules exported by the library.
   Exposed-modules:     Data.Cofunctor
   
   -- Packages needed in order to build this package.
-  -- Build-depends:       
+  Build-depends:       base >= 4 && < 5
   
   -- Modules not exported by this package.
   -- Other-modules:       

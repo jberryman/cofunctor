@@ -5,3 +5,5 @@ left-hand side of a function.
 Can be installed with:
 
     cabal install cofunctor
+
+See docs here: http://hackage.haskell.org/package/cofunctor
