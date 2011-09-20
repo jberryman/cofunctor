@@ -3,6 +3,8 @@
 > ) where
 >
 > {- |
+> /DEPRECATED: please use the "contravariant" package/
+>
 > The Confunctor class is useful for \"sink-like\" types, especially when
 > combined with GADTs. For instance:
 >

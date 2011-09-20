@@ -4,9 +4,9 @@
 -- The name of the package.
 Name:                cofunctor
 
-Version:             0.1.0
+Version:             0.1.0.1
 
-Synopsis:            A small library providing a contravariant functor class
+Synopsis:            DEPRECATED: use the "contravariant" package
 
 Description:         This library provides a 'Cofunctor' class useful for types
                      that are sinks or make use of IO effects. See documentation 
